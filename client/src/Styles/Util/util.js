@@ -38,7 +38,7 @@ export const layout = (props) => {
 
 export const spacing = (props) => {
     return {
-        padding:`${5*props.pd}px`,
+        padding:`${5*(props.pdVert || 0)}px ${5*(props.pdHorizon || 0)}px `,
         ["margin-top"]:`${5*props.mg_top}px`,
     }
 }

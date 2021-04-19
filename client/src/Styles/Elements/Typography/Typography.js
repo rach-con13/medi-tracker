@@ -35,3 +35,7 @@ export const Paragraph = styled(Typography)`
     font-size:16px;
     color:"#FEFCF5";
 `;
+export const Accent = styled(Typography)`
+    font-weight:bold;
+    color:#55C992;
+`
