@@ -30,6 +30,10 @@ export default function Account(props) {
                           <Typography fontSize='16px' fontWeight='bold'>Trileptal</Typography>
                           <Accent pdHorizon={2}>200mg</Accent>
                         </CardItem>
+                        <CardItem>
+                          <Typography fontSize='16px' fontWeight='bold'>Trileptal</Typography>
+                          <Accent pdHorizon={2}>200mg</Accent>
+                        </CardItem>
                     </MedicineCard>
                 </Grid>
                 <Grid item span={9}  >
